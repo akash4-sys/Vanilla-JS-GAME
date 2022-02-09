@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Brick-Breaker</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+
+            #gameScreen{
+                border: 1px solid black;
+                background: url(assets/bg.jpg);
+                background-size: cover;
+            }
+
+            img{
+                display:none;
+            }
+
+        </style>
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <!-- TODO: Add audio -->
+        <img src="assets/ball2.png" id="img_ball" alt="">
+        <img src="assets/brick.png" id="img_brick" >
+        <h1>Brick-Breaker</h1>
+        <canvas id="gameScreen" width="800" height="600"></canvas>
+    </body>
+    <script type="module" src="src/index.js" ></script>
+</html>
